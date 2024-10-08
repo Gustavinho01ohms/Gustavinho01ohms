@@ -1,6 +1,6 @@
 from Chatbot import GerarConteudo
 
-prompt = input("Sobre o que vamos falar? ")
+prompt = input("?")
 conversa = GerarConteudo(prompt)
 textogerado = conversa.gerarTexto()
 

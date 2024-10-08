@@ -4,7 +4,7 @@ import google.generativeai as genai
 class GerarConteudo:
     def __init__(self, entrada):
         self.entrada = entrada
-        genai.configure(api_key='Sua Chave API aqui')
+        genai.configure(api_key='AIzaSyCg4DVRViU7WCuXjjwq-yuR9mfzXdckQFY')
         model = genai.GenerativeModel("gemini-1.5-flash")
         self.response = model.generate_content(
             entrada,
@@ -18,4 +18,3 @@ class GerarConteudo:
 
     def gerarTexto(self):
         return self.response.text
-

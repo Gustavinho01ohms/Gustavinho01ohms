@@ -1,5 +1,5 @@
 import random
-class iteracaoChatBot():
+class interacaoChatBot():
     def __init__(self):
         global iteracao
         iteracao = ["Olá! Como posso te ajudar hoje? ",
